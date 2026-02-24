@@ -48,4 +48,4 @@ Successful Authentication Detected During further log analysis, it was identifie
 Clasification: True Positive
 
 
-Action: Host Contained
+Action: Host Contained - Isolate Endpoint
