@@ -46,3 +46,6 @@ Executive Summary of the Incident:
 Successful Authentication Detected During further log analysis, it was identified that after multiple failed login attempts (Event ID 4625), a successful authentication occurred.  Event ID: 4624  Logon Type: 10 (RemoteInteractive – RDP)  Source IP: 218.92.0.56  Destination IP: 172.16.17.148  Username: Matthew  This indicates that the brute force attack was ultimately successful, allowing the attacker to gain remote access to the system via RDP.  The presence of Logon Type 10 confirms that the authentication was performed through Remote Desktop Protocol.  This escalates the incident from an attempted brute force attack to a confirmed security compromise.
 
 Clasification: True Positive
+
+
+Containment: Host Contained
