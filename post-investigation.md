@@ -12,4 +12,6 @@ The following Windows Security Events were reviewed:
 
   - 4688 – Process creation
 
+  - 5140 - Access to internal folders
+
 No suspicious post-compromise activity was identified.
